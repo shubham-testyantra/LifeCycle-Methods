@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Mounting from "./components/reactLifeCycle/mounting/Mounting";
+import UnMounting from "./components/reactLifeCycle/unmounting/UnMounting";
+import ReactUpdate from "./components/reactLifeCycle/updating/ReactUpdate";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Mounting newFramework="Vue JS" /> */}
+      {/* <Mounting /> */}
+
+      {/* <ReactUpdate newSnacks="Pani Puri" /> */}
+      {/* <ReactUpdate /> */}
+
+      <UnMounting />
     </div>
   );
 }
